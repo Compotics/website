@@ -77,12 +77,10 @@ body {
 
 .tag1 {
   font-size: 1.5rem;
-  text-transform: uppercase;
 }
 
 .tag2 {
   font-size: 2rem;
-  text-transform: capitalize;
   color: var(--forest-green);
 }
 
@@ -93,6 +91,12 @@ body {
   align-items: center;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
 }
 
 .email {

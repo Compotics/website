@@ -517,12 +517,10 @@ body {
 }
 
 .tag1 {
-  text-transform: uppercase;
   font-size: 1.5rem;
 }
 
 .tag2 {
-  text-transform: capitalize;
   color: var(--forest-green);
   font-size: 2rem;
 }
@@ -534,6 +532,12 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
   display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
 }
 
 .email {

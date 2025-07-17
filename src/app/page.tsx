@@ -16,16 +16,18 @@ export default function Home() {
         </div>
         <div className="contact">
           interested? contact us at&nbsp;
-          <a
-            href={"mailto:" + EMAIL}
-            target="_blank"
-            className="email"
-            onClick={() => {
-              navigator.clipboard.writeText(EMAIL);
-            }}
-          >
-            {EMAIL}
-          </a>
+          <span>
+            <a
+              href={"mailto:" + EMAIL}
+              target="_blank"
+              className="email"
+              onClick={() => {
+                navigator.clipboard.writeText(EMAIL);
+              }}
+            >
+              {EMAIL}
+            </a>
+          </span>
         </div>
       </div>
     </div>

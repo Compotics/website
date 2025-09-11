@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
     loader: "akamai",
     path: "",
   },
-  assetPrefix: "./",
 };
 
 export default nextConfig;

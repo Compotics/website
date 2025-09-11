@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: "18.x"
 
+      - name: Installing npm
+        run: npm install
+        
       - name: Installing my packages
         run: npm ci
 

@@ -23,8 +23,8 @@ jobs:
       - name: Installing npm
         run: npm install
         
-      # - name: Installing my packages
-      #   run: npm ci
+      - name: Installing my packages
+        run: npm ci
 
       # - name: Extract repository name
       #   run: echo "BASE_PATH=/$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)" >> $GITHUB_ENV

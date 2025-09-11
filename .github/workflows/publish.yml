@@ -21,7 +21,7 @@ jobs:
           node-version: "18.x"
 
       - name: installing npm
-        run: npm install
+        run: npm run dev
 
       - name: Installing my packages
         run: npm ci
